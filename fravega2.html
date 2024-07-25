@@ -1,51 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .cuadrito{
-            height: 40px;
-            width: 40px;
-            background-color: brown;
+        body {
+            background-color: rgb(250, 250, 250);
+        }
+
+        main {
+            display: flex;
+            
+        }
+        
+        .container {
+            gap: 50px;
+            justify-content: center;
+            width: 400;
+            display: flex;
+            height: 350;
+            
+        }
+        
+        .cuadrito {
+            background-color: rgb(225, 74, 228);
+            position: absolute;
+            color: white;
+            padding: 5px;
+            margin: 0px 15px;
+            align-items: center;
+            
+        }
+        
+        .oferta {
+            align-items: center;
+            align-items: flex-start;
+            font-size: 0.7em;
+            font-weight: 700;
+        }
+        
+        .box2 {
+            display: flex;
+            align-items: center;
+            
+            
+        }
+        
+        .numero {
+            font-size: 2em;
+            font-weight: 600;
+        }
+        
+        .off {
+            font-size: 0.5em;
+            font-weight: 700;
+        }
+        
+        .porcentaje {
+            font-weight: 800;
+            
+        }
+        
+        .producto {
+            background-color: white;
+            box-shadow: 6px 6px rgba(0, 0, 0, 0.06)
+            position: relative;
+        }
+        
+        p {
+            margin: 5px;
         }
     </style>
 </head>
+
 <body>
     <header>
 
     </header>
     <main>
         <div class="container">
-            <div>
+            <div class="producto">
 
                 <div class="cuadrito">
-                    <div></div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <div></div>
-                            <div></div>
+                    <div class="oferta">
+                        HASTA
+                    </div>
+                    <div class="box2">
+                        <div class="numero">
+                            25
+                        </div>
+                        <div class="box3">
+                            <div class="porcentaje">
+                                %
+                            </div>
+                            <div class="off">
+                                OFF
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
                 <div>
-                    <img src="/imagenes/arreglo-coleccion-estacionaria-moderna_23-2149309648 (1).avif" alt="" width="250" height="200">
+                    <img src="/imagenes/arreglo-coleccion-estacionaria-moderna_23-2149309648 (1).avif" alt=""
+                        width="100%" height="250">
                 </div>
 
-                <div>
+                <div class="texto">
                     <p>notebooks, tablets, smartwatches y mucho mas en hasta 6 cuotas sin interes.</p>
                 </div>
 
             </div>
-           
-           
-           
-           
-        
+
+
+
+
+
+
+
+
+
+            <div class="producto">
+
+                <div class="cuadrito">
+                    <div class="oferta">
+                        HASTA
+                    </div>
+                    <div class="box2">
+                        <div class="numero">
+                            45
+                        </div>
+                        <div class="box3">
+                            <div class="porcentaje">
+                                %
+                            </div>
+                            <div class="off">
+                                OFF
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <img src="/imagenes/fitness-prueba.jpg" alt="" width="100%" height="250">
+                </div>
+
+                <div class="texto">
+                    <p>Aprovecha hasta 6 cuotas sin interes en articulos
+                        de deportes y fitness.</p>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+          
+                <div class="producto">
+
+                    <div class="cuadrito">
+                        <div class="oferta">
+                            HASTA
+                        </div>
+                        <div class="box2">
+                            <div class="numero">
+                                30
+                            </div>
+                            <div class="box3">
+                                <div class="porcentaje">
+                                    %
+                                </div>
+                                <div class="off">
+                                    OFF
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <img src="/imagenes/heladera.webp" alt="" width="100%" height="250">
+                    </div>
+
+                    <div class="texto">
+                        <p>Heladera, cocinas, lavos y pequeños <br>
+                            electrodomesticos en hasta 6 cuotas sin interes.</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
         </div>
 
 
@@ -55,4 +210,5 @@
     </footer>
 
 </body>
+
 </html>
